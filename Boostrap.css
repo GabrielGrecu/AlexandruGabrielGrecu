@@ -47,14 +47,30 @@
             color: #2b1055;} 
 
 
-    @media(max-width:501px){
+    @media(max-width:500px){
     .p{ padding: 0.75rem 0.1rem;  height: 3rem;}
-        .active>a{display: inline-block ; margin-right: 0.3rem;;text-decoration: none; color: #fff;}
+        .active>a{display: inline-block ; margin-right: 0.2rem;font-size: 1.2rem;text-decoration: none; color: #fff;}
         .active>a:last-child{margin-right: 0;}
-        .active>a{margin-bottom:0rem; font-size: 0.8rem; }
+        .active>a{margin-bottom:0rem; font-size: 1rem; }
     }
 
 
+    @media(max-width:350px){
+        .p{ padding: 0.75rem 0.1rem;  height: 3rem;}
+            .active>a{display: inline-block ; margin-right: 0.1rem;font-size: 1.2rem;text-decoration: none; color: #fff;}
+            .active>a:last-child{margin-right: 0;}
+            .active>a{margin-bottom:0rem; font-size: 0.9rem; }
+        }
+    
+        @media(max-width:290px){
+            .p{ padding: 0.75rem 0.1rem;  height: 3rem;}
+                .active>a{display: inline-block ; margin-right: 0.1rem;font-size: 1.2rem;text-decoration: none; color: #fff;}
+                .active>a:last-child{margin-right: 0;}
+                .active>a{margin-bottom:0rem; font-size: 0.7rem; }
+            }
+        
+        
+    
 
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
